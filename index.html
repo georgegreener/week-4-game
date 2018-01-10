@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="jumbotron">
+                    <h2 class="display-4">Rupee Reclaimer</h2>
+                        <p class="lead">Each rupee has a random value between 1 and 12.</p>
+                        <p class="lead">Collect rupees to reach the Target Number.</p>
+                        <p class="lead">If you reach the Target Number, you win.</p>
+                        <p class="lead">If you exceed the Target Number, you lose.</p>      
+            </div>
+
+        </div>
+
+        <div class="smallContainer">
+
+            <div class="row">
+
+                    <div class="sm-col-12" id="targetNumberWinsLosses">
+
+                        <button type="button" class="btn btn-primary">
+                            Target Number <span id="target-num"class="badge badge-light number">0</span>
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Wins <span id="wins"class="badge badge-light number">0</span>
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            Losses <span id="losses"class="badge badge-light number">0</span>
+                        </button>
+
+                    </div>
+
+            </div>
+
+            <div class="row">
+            
+                <div class="buttons">
+
+                    <button type="button" id="blueRupee" class="btn btn-default">
+                            <img src="assets/images/bluerupee.jpg" height: "100" width="100">
+                        </button>
+                    <button type="button" id="redRupee" class="btn btn-default">
+                            <img src="assets/images/redrupee.jpg" height: "100" width="100">
+                        </button>        
+                    <button type="button" id="yellowRupee" class="btn btn-default">
+                            <img src="assets/images/yellowrupee.jpg" height: "100" width="100">
+                        </button>
+                    <button type="button" id="greenRupee" class="btn btn-default">
+                        <img src="assets/images/greenrupee.jpg" height: "100" width="100">
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="sm-col-12" id="playerScore">
+
+                    <button type="button" class="btn btn-primary">
+                        Score <span id="score" class="badge badge-light score">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript"></script>
+    
+</body>
+</html>

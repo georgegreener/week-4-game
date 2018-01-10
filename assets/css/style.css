@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/cave.jpg);
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: #7faad4;
+    text-align: center;
+    width: 75%;
+    display: block;
+    margin: 20px;
+}
+
+.container {
+    width: 50%;
+    display: block;
+}
+
+.smallContainer {
+    background-color: #7faad4;
+    width: 75%;
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+#targetNumberWinsLosses {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+
+.buttons {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+
+#playerScore {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
